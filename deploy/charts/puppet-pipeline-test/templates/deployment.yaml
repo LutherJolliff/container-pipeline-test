@@ -28,7 +28,7 @@ spec:
             #   containerPort: 80
             #   protocol: TCP
             - name: app 
-              containerPort: 4200
+              containerPort: {{ .Values.service.internalPort }}
               protocol: TCP
           # livenessProbe:
           #   tcpSocket:
