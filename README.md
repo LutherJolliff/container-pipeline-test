@@ -1,6 +1,6 @@
 # Node.js Hello World
 
-Node.js Hello World on CentOS using [docker][].
+Simple Dockerized Node.js app to test the pipeline
 
 ## Prerequisites
 
